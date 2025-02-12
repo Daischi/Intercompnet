@@ -2,7 +2,7 @@
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
 import Link from "next/link"
-import { Moon, Sun, Mail } from "lucide-react"
+import { Moon, Sun, Mail, Phone } from "lucide-react"
 
 
 export default function Navigation() {
@@ -67,7 +67,12 @@ export default function Navigation() {
 
         </button>
         
-        <a className="text-sm pl-4 pr-6 py-2 border-[1.5px] rounded-md text-left flex items-center justify-center gap-3 hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors duration-200" href="#"><Mail size={20}/>Email</a>
+        <a className="text-sm pl-4 pr-6 py-2 border-[1.5px] rounded-md text-left flex items-center justify-center gap-3 hover:bg-zinc-200 dark:hover:bg-zinc-800 
+        transition-colors duration-300" href="#"><Mail size={17}/>Email</a>
+
+        <a className="text-sm pl-4 pr-6 py-2 border-[1.5px] rounded-md text-left flex items-center justify-center gap-3
+         dark:bg-slate-50 dark:text-black dark:hover:bg-opacity-85 transition-colors duration-300
+         bg-black text-white font-medium hover:bg-opacity-80" href="#"><Phone size={17}/>(11) 5535-7587</a>
         
 
       </div>
