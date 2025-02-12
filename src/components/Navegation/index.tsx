@@ -73,7 +73,7 @@ export default function Navigation() {
         <a className="text-sm pl-4 pr-6 py-2 border-[1.5px] rounded-md text-left flex items-center justify-center gap-3
          dark:bg-slate-50 dark:text-black dark:hover:bg-opacity-85 transition-colors duration-300
          bg-black text-white font-medium hover:bg-opacity-80" href="#"><Phone size={17}/>(11) 5535-7587</a>
-        
+
 
       </div>
     </nav>
