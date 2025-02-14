@@ -11,7 +11,7 @@ export default function Hero() {
           <div className="w-[40%]">
             <h3
               className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 
-            focus:ring-ring focus:ring-offset-2 border-transparent bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
+            focus:ring-ring focus:ring-offset-2 border-transparent bg-primary/10 text-primary hover:bg-primary/20 transition-all duration-500 cursor-pointer hover:scale-105"
             >
               Desde 1996 - Mais de 25 anos de experiência
             </h3>

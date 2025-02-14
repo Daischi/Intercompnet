@@ -33,25 +33,25 @@ export default function Navigation() {
 
 
       <div className="flex gap-5 justify-center font-normal text-sm items-center">
-        <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-200 dark:hover:text-foreground " href="">
-          Sobre Nós
-        </Link>
-        <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-200 dark:hover:text-foreground " href="">
-          Como Funciona
-        </Link>
-        <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-200 dark:hover:text-foreground " href="">
-          Serviços
-        </Link>
-        <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-200 dark:hover:text-foreground " href="">
-          Marcas
-        </Link>
-        <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-200 dark:hover:text-foreground " href="">
-          Galeria
-        </Link>
-        <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-200 dark:hover:text-foreground" href="">
-          Contato
-        </Link>
-      </div>
+  <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground" href="">
+    Sobre Nós
+  </Link>
+  <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground" href="">
+    Como Funciona
+  </Link>
+  <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground" href="">
+    Serviços
+  </Link>
+  <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground" href="">
+    Marcas
+  </Link>
+  <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground" href="">
+    Galeria
+  </Link>
+  <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground" href="">
+    Contato
+  </Link>
+</div>
 
 
       
