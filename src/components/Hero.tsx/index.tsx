@@ -1,6 +1,8 @@
 import Image from "next/image"; // Import necessário para next/image
 import banner from "@/utils/banner.webp"; // Import da imagem
 import { Button } from "../ui/button";
+import { ArrowRight } from "lucide-react";
+
 
 export default function Hero() {
   return (
@@ -14,15 +16,15 @@ export default function Hero() {
 
             <h1 className="py-5 text-6xl font-bold">Assistência Técnica Especializada em Informática</h1>
 
-            <h2 className="py-3 text-xl w-3/4 text-muted-foreground">
+            <h2 className="pb-2 text-xl w-3/4 text-muted-foreground">
               Manutenção, recuperação e conserto de computadores, notebooks,
               impressoras e mais
             </h2>
 
             <div className="flex gap-6 py-3">
 
-              <Button className="py-3"><a href="">Agendar Visita</a></Button>
-              <Button><a href="">Nossos Serviços </a></Button>
+              <Button><a className="flex items-center justify-center gap-4 py-14 px-6"  href="">Agendar Visita <ArrowRight/></a>  </Button>
+              <a className="flex justify-center text-center items-center border-[1.5px] text-base font-semibold rounded-md px-5 hover:bg-primary-foreground " href="">Nossos Serviços </a>
 
             </div>
 
