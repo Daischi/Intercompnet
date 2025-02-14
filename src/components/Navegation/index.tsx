@@ -31,22 +31,22 @@ export default function Navigation() {
         <Link href="">InterCompnet</Link>
       </div>
       <div className="flex gap-5 justify-center font-normal text-sm items-center">
-        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration- " href="">
+        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration-300 " href="">
           Sobre Nós
         </Link>
-        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration- " href="">
+        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration-300 " href="">
           Como Funciona
         </Link>
-        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration- " href="">
+        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration-300 " href="">
           Serviços
         </Link>
-        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration- " href="">
+        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration-300 " href="">
           Marcas
         </Link>
-        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration- " href="">
+        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration-300 " href="">
           Galeria
         </Link>
-        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration- " href="">
+        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration-300 " href="">
           Contato
         </Link>
       </div>
