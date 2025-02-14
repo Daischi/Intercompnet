@@ -4,13 +4,16 @@ import banner from "@/utils/banner.webp"; // Import da imagem
 export default function Hero() {
   return (
     <div>
-      <header>
-        <div>
-          <div>
-            <h3>Desde 1996 - Mais de 25 anos de experiência</h3>
-            <h1>Assistência Técnica Especializada em Informática</h1>
+      <header className="h-screen">
+        <div className="flex justify-center items-center w-full h-screen">
+          <div className="w-[40%]">
 
-            <h2>
+            <h3 className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 
+            focus:ring-ring focus:ring-offset-2 border-transparent bg-primary/10 text-primary hover:bg-primary/20 transition-colors">Desde 1996 - Mais de 25 anos de experiência</h3>
+
+            <h1 className="py-5 text-6xl font-bold">Assistência Técnica Especializada em Informática</h1>
+
+            <h2 className="py-3 text-xl text-primary w-3/4">
               Manutenção, recuperação e conserto de computadores, notebooks,
               impressoras e mais
             </h2>
