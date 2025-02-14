@@ -1,12 +1,18 @@
+import Hero from "@/components/Hero.tsx";
 import Navegation from "@/components/Navegation";
-
 
 export default function Home() {
   return (
-  <main>
+    <div>
+      <header>
+        <Navegation />
+      </header>
+      <main>
 
-  <Navegation/>
+        <Hero/>
 
-  </main>
+        
+      </main>
+    </div>
   );
 }
