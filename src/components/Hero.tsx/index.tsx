@@ -1,5 +1,6 @@
 import Image from "next/image"; // Import necessário para next/image
 import banner from "@/utils/banner.webp"; // Import da imagem
+import { Button } from "../ui/button";
 
 export default function Hero() {
   return (
@@ -13,14 +14,16 @@ export default function Hero() {
 
             <h1 className="py-5 text-6xl font-bold">Assistência Técnica Especializada em Informática</h1>
 
-            <h2 className="py-3 text-xl text-primary w-3/4">
+            <h2 className="py-3 text-xl w-3/4 text-muted-foreground">
               Manutenção, recuperação e conserto de computadores, notebooks,
               impressoras e mais
             </h2>
 
-            <div>
-              <a href="">Agendar Visita</a>
-              <a href="">Nossos Serviços </a>
+            <div className="flex gap-6 py-3">
+
+              <Button className="py-3"><a href="">Agendar Visita</a></Button>
+              <Button><a href="">Nossos Serviços </a></Button>
+
             </div>
 
             <div>
