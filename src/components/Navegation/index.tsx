@@ -21,7 +21,7 @@ export default function Navigation() {
     <nav
     className={`p-4 flex gap-48 items-center transition-all duration-500 
         ${theme === "dark" 
-          ? "bg-gradient-to-r from-neutral-900 via-zinc-800 text-white" 
+          ? "bg-gradient-to-r from-neutral-900 via-black text-white" 
           : "bg-gradient-to-r from-white via-gray-100 to-white text-gray-800 shadow-lg"
         }`}
       

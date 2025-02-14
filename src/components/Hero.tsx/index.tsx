@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 export default function Hero() {
   return (
     <div>
-      <header className="h-screen">
+      <header className="h-screen bg-gradient-to-b from-primary/10 to-background">
         <div className="flex justify-center items-center w-full h-screen">
           <div className="w-[40%]">
 
@@ -28,28 +28,29 @@ export default function Hero() {
 
             </div>
 
-            <div>
-              <div>
-                <h1>30+</h1>
-                <h3>Anos no mercado</h3>
+            <div className="flex gap-3">
+              <div className="border-2 w-48 p-3 rounded-lg">
+                <h1 className="text-2xl font-bold">30+</h1>
+                <h3 className="  text-sm text-muted-foreground">Anos no mercado</h3>
               </div>
-              <div>
-                <h1>20k+</h1>
-                <h3>Clientes atendidos</h3>
+              <div className="border-2 w-48 p-3 rounded-lg">
+                <h1 className="text-2xl font-bold">100%</h1>
+                <h3 className="  text-sm text-muted-foreground">Satisfação</h3>
               </div>
-              <div>
-                <h1>100%</h1>
-                <h3>Satisfação</h3>
+              <div className="border-2 w-48 p-3 rounded-lg">
+                <h1 className="text-2xl font-bold">30+</h1>
+                <h3 className="  text-sm text-muted-foreground">Anos no mercado</h3>
               </div>
             </div>
           </div>
 
           <div>
             <Image
-              src={banner} // Caminho da imagem
-              alt="Banner da assistência técnica"
-              width={600} // Ajuste conforme necessário
-              height={400} // Ajuste conforme necessário
+              className="rounded-lg shadow-2xl"
+              src={banner} 
+              alt="Foto da loja"
+              width={800} // Ajuste conforme necessário
+              height={800} // Ajuste conforme necessário
               priority // Carregar mais rápido
             />
           </div>
