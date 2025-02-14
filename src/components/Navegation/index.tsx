@@ -30,26 +30,29 @@ export default function Navigation() {
       <div className="text-xl font-bold flex justify-end w-96 items-center">
         <Link href="">InterCompnet</Link>
       </div>
+
+
       <div className="flex gap-5 justify-center font-normal text-sm items-center">
-        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration-300 " href="">
+        <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-200 dark:hover:text-foreground " href="">
           Sobre Nós
         </Link>
-        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration-300 " href="">
+        <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-200 dark:hover:text-foreground " href="">
           Como Funciona
         </Link>
-        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration-300 " href="">
+        <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-200 dark:hover:text-foreground " href="">
           Serviços
         </Link>
-        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration-300 " href="">
+        <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-200 dark:hover:text-foreground " href="">
           Marcas
         </Link>
-        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration-300 " href="">
+        <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-200 dark:hover:text-foreground " href="">
           Galeria
         </Link>
-        <Link className="hover:text-neutral-400 dark:hover:text-zinc-400 transition-all duration-300 " href="">
+        <Link className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-200 dark:hover:text-foreground" href="">
           Contato
         </Link>
       </div>
+
 
       
 
@@ -67,8 +70,8 @@ export default function Navigation() {
 
         </button>
         
-        <a className="text-sm pl-4 pr-6 py-2 border-[1.5px] rounded-md text-left flex items-center justify-center gap-3 hover:bg-zinc-200 dark:hover:bg-zinc-800 
-        transition-colors duration-300" href="#"><Mail size={17}/>Email</a>
+        <a className="group text-sm pl-4 pr-6 py-2 border-[1.5px] rounded-md text-left flex items-center justify-center gap-3 hover:bg-zinc-200 dark:hover:bg-zinc-800 
+        transition-colors duration-300" href="#"><Mail className="transition-transform duration-300 group-hover:-translate-y-[2px] group-hover:rotate-12 ease-in-out" size={17}/>Email</a>
 
         <a className="text-sm pl-4 pr-6 py-2 border-[1.5px] rounded-md text-left flex items-center justify-center gap-3
          dark:bg-slate-50 dark:text-black dark:hover:bg-opacity-85 transition-colors duration-300

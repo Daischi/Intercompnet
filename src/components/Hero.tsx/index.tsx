@@ -39,7 +39,7 @@ export default function Hero() {
               <Button
                 className="bg-white dark:bg-black dark:text-white text-black 
               dark:hover:bg-primary/10 hover:bg-primary/10 
-              transition-colors duration-300 dark:border-[1.5px]"
+              transition-all hover:scale-105 duration-300 dark:border-[1.5px]"
               >
                 <a
                   className="flex items-center justify-center gap-4 py-14 px-6"
