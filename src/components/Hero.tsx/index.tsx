@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 export default function Hero() {
   return (
     <div>
-      <header className="h-screen bg-gradient-to-b from-primary/10 to-background">
+      <header>
         <div className="flex justify-center items-center w-full h-screen">
           <div className="w-[40%]">
             <h3

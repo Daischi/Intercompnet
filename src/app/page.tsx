@@ -8,7 +8,7 @@ export default function Home() {
       <header>
         <Navegation />
       </header>
-      <main>
+      <main className="h-screen bg-gradient-to-b from-primary/10 to-background">
 
         <Hero/>
         <ServicesTabs/>
