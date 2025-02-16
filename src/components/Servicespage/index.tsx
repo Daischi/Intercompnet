@@ -19,7 +19,7 @@ export default function ServicesTabs() {
         </TabsList>
 
         <TabsContent value="computadores">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
             <Card>
               <CardHeader>
                 <Cpu className="w-6 h-6" />
