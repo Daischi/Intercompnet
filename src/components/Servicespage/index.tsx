@@ -49,7 +49,7 @@ export default function ServicesTabs() {
             <Card>
               <CardHeader>
                 <HardDrive className="w-6 h-6" />
-                <CardTitle>Recuperação de Dados</CardTitle>
+                <CardTitle>Novos</CardTitle>
               </CardHeader>
               <CardContent>Recuperação de arquivos perdidos.</CardContent>
             </Card>
