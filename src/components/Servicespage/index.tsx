@@ -11,6 +11,7 @@ import {
   Settings,
   Shield,
   Wifi,
+  WrenchIcon,
 } from "lucide-react";
 
 export default function ServicesTabs() {
@@ -26,7 +27,7 @@ export default function ServicesTabs() {
       </div>
 
       <Tabs defaultValue="computadores" className="mx-auto w-full">
-        <div className="w-full max-w-4xl mx-auto">
+        <div className="w-full max-w-4xl mx-auto pb-9">
           <TabsList className="grid grid-cols-4">
             <TabsTrigger value="computadores">Computadores</TabsTrigger>
             <TabsTrigger value="impressoras">Impressoras</TabsTrigger>
@@ -157,11 +158,11 @@ export default function ServicesTabs() {
 
                 <Card>
                   <CardHeader>
-                    <Cpu className="w-6 h-6" />
+                    <WrenchIcon className="w-6 h-6" />
                     <CardTitle>Limpeza e Manutenção</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    Melhoria de desempenho em consoles e PCs gamers.
+                  Serviço preventivo para consoles
                   </CardContent>
                 </Card>
               </div>
