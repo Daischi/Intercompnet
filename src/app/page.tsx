@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <div>
       <header>
-        <Navegation />
+      
+        <Navegation/>
+        
       </header>
       <main className="h-screen bg-gradient-to-b from-primary/10 to-background">
 
