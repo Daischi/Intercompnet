@@ -46,28 +46,28 @@ export default function ServicesTabs() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 w-[1300px]">
                 <Card>
                   <CardHeader>
-                    <Cpu size={32}  className="mb-5"/>
-                    <CardTitle>Manutenção de PCs</CardTitle>
+                    <Cpu size={32}  className="mb-4"/>
+                    <CardTitle className="font-bold text-lg">Manutenção de PCs</CardTitle>
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="text-zinc-500">
                     Serviços completos para desktops e notebooks.
                   </CardContent>
                 </Card>
 
                 <Card>
                   <CardHeader>
-                    <Download size={32}  className="mb-5" />
-                    <CardTitle>Instalação de Software</CardTitle>
+                    <Download size={32}  className="mb-4" />
+                    <CardTitle className="font-bold text-lg">Instalação de Software</CardTitle>
                   </CardHeader>
-                  <CardContent>Sistemas operacionais e programas.</CardContent>
+                  <CardContent className="text-zinc-500">Sistemas operacionais e programas.</CardContent>
                 </Card>
 
                 <Card>
                   <CardHeader>
-                    <HardDrive size={32}  className="mb-5" />
-                    <CardTitle>Recuperação de Dados</CardTitle>
+                    <HardDrive size={32}  className="mb-4" />
+                    <CardTitle className="font-bold text-lg">Recuperação de Dados</CardTitle>
                   </CardHeader>
-                  <CardContent>Recuperação de arquivos perdidos.</CardContent>
+                  <CardContent className="text-zinc-400">Recuperação de arquivos perdidos.</CardContent>
                 </Card>
               </div>
             </TabsContent>
@@ -76,16 +76,16 @@ export default function ServicesTabs() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 w-[1300px]">
                 <Card>
                   <CardHeader>
-                    <Printer size={32}  className="mb-5" />
-                    <CardTitle>Manutenção de Impressoras</CardTitle>
+                    <Printer size={32}  className="mb-4" />
+                    <CardTitle className="font-bold text-lg">Manutenção de Impressoras</CardTitle>
                   </CardHeader>
                   <CardContent>Reparo e manutenção de impressoras.</CardContent>
                 </Card>
 
                 <Card>
                   <CardHeader>
-                    <Settings size={32}  className="mb-5"/>
-                    <CardTitle>Configuração</CardTitle>
+                    <Settings size={32}  className="mb-4"/>
+                    <CardTitle className="font-bold text-lg">Configuração</CardTitle>
                   </CardHeader>
                   <CardContent>
                     Configuração e ajustes de impressoras.
@@ -94,8 +94,8 @@ export default function ServicesTabs() {
 
                 <Card>
                   <CardHeader>
-                    <RefreshCcw size={32}  className="mb-5"/>
-                    <CardTitle>Substituição de Peças</CardTitle>
+                    <RefreshCcw size={32}  className="mb-4"/>
+                    <CardTitle className="font-bold text-lg">Substituição de Peças</CardTitle>
                   </CardHeader>
                   <CardContent>Troca de cartuchos, toners e peças.</CardContent>
                 </Card>
@@ -106,8 +106,8 @@ export default function ServicesTabs() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 w-[1300px]">
                 <Card>
                   <CardHeader>
-                    <Wifi size={32}  className="mb-5"/>
-                    <CardTitle>Configuração de Redes</CardTitle>
+                    <Wifi size={32}  className="mb-4"/>
+                    <CardTitle className="font-bold text-lg">Configuração de Redes</CardTitle>
                   </CardHeader>
                   <CardContent>
                     Instalação e configuração de redes locais.
@@ -116,8 +116,8 @@ export default function ServicesTabs() {
 
                 <Card>
                   <CardHeader>
-                    <Shield size={32}  className="mb-5"/>
-                    <CardTitle>Segurança de Rede</CardTitle>
+                    <Shield size={32}  className="mb-4"/>
+                    <CardTitle className="font-bold text-lg">Segurança de Rede</CardTitle>
                   </CardHeader>
                   <CardContent>
                     Proteção contra ataques e vulnerabilidades.
@@ -126,8 +126,8 @@ export default function ServicesTabs() {
 
                 <Card>
                   <CardHeader>
-                    <ServerCog size={32}  className="mb-5"/>
-                    <CardTitle>Servidores</CardTitle>
+                    <ServerCog size={32}  className="mb-4"/>
+                    <CardTitle className="font-bold text-lg">Servidores</CardTitle>
                   </CardHeader>
                   <CardContent>
                     Configuração e manutenção de servidores.
@@ -140,8 +140,8 @@ export default function ServicesTabs() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 w-[1300px]">
                 <Card>
                   <CardHeader>
-                    <Gamepad size={32}  className="mb-5"/>
-                    <CardTitle>Reparo de Consoles</CardTitle>
+                    <Gamepad size={32}  className="mb-4"/>
+                    <CardTitle className="font-bold text-lg">Reparo de Consoles</CardTitle>
                   </CardHeader>
                   <CardContent>
                     Manutenção e conserto de consoles de videogame.
@@ -150,16 +150,16 @@ export default function ServicesTabs() {
 
                 <Card>
                   <CardHeader>
-                    <Download size={32}  className="mb-5"/>
-                    <CardTitle>Instalação de Jogos</CardTitle>
+                    <Download size={32}  className="mb-4"/>
+                    <CardTitle className="font-bold text-lg">Instalação de Jogos</CardTitle>
                   </CardHeader>
                   <CardContent>Instalação e otimização de jogos.</CardContent>
                 </Card>
 
                 <Card>
                   <CardHeader>
-                    <WrenchIcon size={32}  className="mb-5"/>
-                    <CardTitle>Limpeza e Manutenção</CardTitle>
+                    <WrenchIcon size={32}  className="mb-4"/>
+                    <CardTitle className="font-bold text-lg">Limpeza e Manutenção</CardTitle>
                   </CardHeader>
                   <CardContent>
                   Serviço preventivo para consoles
