@@ -49,7 +49,7 @@ export default function ServicesTabs() {
                     <Cpu size={32}  className="mb-4"/>
                     <CardTitle className="font-bold text-lg">Manutenção de PCs</CardTitle>
                   </CardHeader>
-                  <CardContent className="text-zinc-500">
+                  <CardContent className="text-zinc-400">
                     Serviços completos para desktops e notebooks.
                   </CardContent>
                 </Card>
@@ -59,7 +59,7 @@ export default function ServicesTabs() {
                     <Download size={32}  className="mb-4" />
                     <CardTitle className="font-bold text-lg">Instalação de Software</CardTitle>
                   </CardHeader>
-                  <CardContent className="text-zinc-500">Sistemas operacionais e programas.</CardContent>
+                  <CardContent className="text-zinc-400">Sistemas operacionais e programas.</CardContent>
                 </Card>
 
                 <Card>
@@ -79,7 +79,7 @@ export default function ServicesTabs() {
                     <Printer size={32}  className="mb-4" />
                     <CardTitle className="font-bold text-lg">Manutenção de Impressoras</CardTitle>
                   </CardHeader>
-                  <CardContent>Reparo e manutenção de impressoras.</CardContent>
+                  <CardContent className="text-zinc-400">Reparo e manutenção de impressoras.</CardContent>
                 </Card>
 
                 <Card>
@@ -87,7 +87,7 @@ export default function ServicesTabs() {
                     <Settings size={32}  className="mb-4"/>
                     <CardTitle className="font-bold text-lg">Configuração</CardTitle>
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="text-zinc-400">
                     Configuração e ajustes de impressoras.
                   </CardContent>
                 </Card>
@@ -97,7 +97,7 @@ export default function ServicesTabs() {
                     <RefreshCcw size={32}  className="mb-4"/>
                     <CardTitle className="font-bold text-lg">Substituição de Peças</CardTitle>
                   </CardHeader>
-                  <CardContent>Troca de cartuchos, toners e peças.</CardContent>
+                  <CardContent className="text-zinc-400">Troca de cartuchos, toners e peças.</CardContent>
                 </Card>
               </div>
             </TabsContent>
@@ -109,7 +109,7 @@ export default function ServicesTabs() {
                     <Wifi size={32}  className="mb-4"/>
                     <CardTitle className="font-bold text-lg">Configuração de Redes</CardTitle>
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="text-zinc-400">
                     Instalação e configuração de redes locais.
                   </CardContent>
                 </Card>
@@ -119,7 +119,7 @@ export default function ServicesTabs() {
                     <Shield size={32}  className="mb-4"/>
                     <CardTitle className="font-bold text-lg">Segurança de Rede</CardTitle>
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="text-zinc-400">
                     Proteção contra ataques e vulnerabilidades.
                   </CardContent>
                 </Card>
@@ -129,7 +129,7 @@ export default function ServicesTabs() {
                     <ServerCog size={32}  className="mb-4"/>
                     <CardTitle className="font-bold text-lg">Servidores</CardTitle>
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="text-zinc-400">
                     Configuração e manutenção de servidores.
                   </CardContent>
                 </Card>
@@ -143,7 +143,7 @@ export default function ServicesTabs() {
                     <Gamepad size={32}  className="mb-4"/>
                     <CardTitle className="font-bold text-lg">Reparo de Consoles</CardTitle>
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="text-zinc-400">
                     Manutenção e conserto de consoles de videogame.
                   </CardContent>
                 </Card>
@@ -153,7 +153,7 @@ export default function ServicesTabs() {
                     <Download size={32}  className="mb-4"/>
                     <CardTitle className="font-bold text-lg">Instalação de Jogos</CardTitle>
                   </CardHeader>
-                  <CardContent>Instalação e otimização de jogos.</CardContent>
+                  <CardContent className="text-zinc-400">Instalação e otimização de jogos.</CardContent>
                 </Card>
 
                 <Card>
@@ -161,7 +161,7 @@ export default function ServicesTabs() {
                     <WrenchIcon size={32}  className="mb-4"/>
                     <CardTitle className="font-bold text-lg">Limpeza e Manutenção</CardTitle>
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="text-zinc-400">
                   Serviço preventivo para consoles
                   </CardContent>
                 </Card>
