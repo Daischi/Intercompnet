@@ -38,7 +38,7 @@ export default function ServicesTabs() {
           <div>
             <TabsContent value="computadores">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 w-[1300px]">
-                <Card className="group">
+                <Card className="group transition-all duration-300 hover:shadow-xl">
                   <CardHeader>
                     <Cpu size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Manutenção de PCs</CardTitle>
@@ -48,7 +48,7 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card className="group">
+                <Card className="group transition-all duration-300 hover:shadow-xl">
                   <CardHeader>
                     <Download size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Instalação de Software</CardTitle>
@@ -58,7 +58,7 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card className="group">
+                <Card className="group transition-all duration-300 hover:shadow-xl">
                   <CardHeader>
                     <HardDrive size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Recuperação de Dados</CardTitle>
@@ -72,7 +72,7 @@ export default function ServicesTabs() {
 
             <TabsContent value="impressoras">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 w-[1300px]">
-                <Card className="group">
+                <Card className="group transition-all duration-300 hover:shadow-xl">
                   <CardHeader>
                     <Printer size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Manutenção de Impressoras</CardTitle>
@@ -82,7 +82,7 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card className="group">
+                <Card className="group transition-all duration-300 hover:shadow-xl">
                   <CardHeader>
                     <Settings size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Configuração</CardTitle>
@@ -92,7 +92,7 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card className="group">
+                <Card className="group transition-all duration-300 hover:shadow-xl">
                   <CardHeader>
                     <RefreshCcw size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Substituição de Peças</CardTitle>
@@ -106,7 +106,7 @@ export default function ServicesTabs() {
 
             <TabsContent value="redes">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 w-[1300px]">
-                <Card className="group">
+                <Card className="group transition-all duration-300 hover:shadow-xl">
                   <CardHeader>
                     <Wifi size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Configuração de Redes</CardTitle>
@@ -116,7 +116,7 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card className="group">
+                <Card className="group transition-all duration-300 hover:shadow-xl">
                   <CardHeader>
                     <Shield size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Segurança de Rede</CardTitle>
@@ -126,7 +126,7 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card className="group">
+                <Card className="group transition-all duration-300 hover:shadow-xl">
                   <CardHeader>
                     <ServerCog size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Servidores</CardTitle>
@@ -140,7 +140,7 @@ export default function ServicesTabs() {
 
             <TabsContent value="video-games">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 w-[1300px]">
-                <Card className="group">
+                <Card className="group transition-all duration-300 hover:shadow-xl">
                   <CardHeader>
                     <Gamepad size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Reparo de Consoles</CardTitle>
@@ -150,7 +150,7 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card className="group">
+                <Card className="group transition-all duration-300 hover:shadow-xl">
                   <CardHeader>
                     <Download size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Instalação de Jogos</CardTitle>
@@ -160,7 +160,7 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card className="group">
+                <Card className="group transition-all duration-300 hover:shadow-xl">
                   <CardHeader>
                     <WrenchIcon size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Limpeza e Manutenção</CardTitle>
