@@ -165,6 +165,26 @@ export default function ServicesTabs() {
                   Serviço preventivo para consoles
                   </CardContent>
                 </Card>
+
+                <Card>
+                  <CardHeader>
+                    <WrenchIcon size={32}  className="mb-4"/>
+                    <CardTitle className="font-bold text-lg">Limpeza e Manutenção</CardTitle>
+                  </CardHeader>
+                  <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
+                  Serviço preventivo para consoles
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <WrenchIcon size={32}  className="mb-4"/>
+                    <CardTitle className="font-bold text-lg">Limpeza e Manutenção</CardTitle>
+                  </CardHeader>
+                  <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
+                  Serviço preventivo para consoles
+                  </CardContent>
+                </Card>
               </div>
             </TabsContent>
           </div>
