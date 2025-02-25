@@ -1,5 +1,5 @@
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import {
   Cpu,
   Download,
@@ -12,15 +12,13 @@ import {
   Shield,
   Wifi,
   WrenchIcon,
-} from "lucide-react";
+} from "lucide-react"
 
 export default function ServicesTabs() {
   return (
     <div>
       <div>
-        <h1 className="flex justify-center items-center mb-4 text-3xl font-bold">
-          Nossos Serviços
-        </h1>
+        <h1 className="flex justify-center items-center mb-4 text-3xl font-bold">Nossos Serviços</h1>
         <p className="flex justify-center items-center mb-10">
           Oferecemos uma ampla gama de serviços técnicos especializados
         </p>
@@ -36,17 +34,13 @@ export default function ServicesTabs() {
           </TabsList>
         </div>
 
-
         <section className="w-full flex justify-center pb-20">
           <div>
-
-
-            
             <TabsContent value="computadores">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 w-[1300px]">
-                <Card>
+                <Card className="group">
                   <CardHeader>
-                    <Cpu size={32}  className="mb-4"/>
+                    <Cpu size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Manutenção de PCs</CardTitle>
                   </CardHeader>
                   <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
@@ -54,37 +48,43 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card>
+                <Card className="group">
                   <CardHeader>
-                    <Download size={32}  className="mb-4" />
+                    <Download size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Instalação de Software</CardTitle>
                   </CardHeader>
-                  <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">Sistemas operacionais e programas.</CardContent>
+                  <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
+                    Sistemas operacionais e programas.
+                  </CardContent>
                 </Card>
 
-                <Card>
+                <Card className="group">
                   <CardHeader>
-                    <HardDrive size={32}  className="mb-4" />
+                    <HardDrive size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Recuperação de Dados</CardTitle>
                   </CardHeader>
-                  <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">Recuperação de arquivos perdidos.</CardContent>
+                  <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
+                    Recuperação de arquivos perdidos.
+                  </CardContent>
                 </Card>
               </div>
             </TabsContent>
 
             <TabsContent value="impressoras">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 w-[1300px]">
-                <Card>
+                <Card className="group">
                   <CardHeader>
-                    <Printer size={32}  className="mb-4" />
+                    <Printer size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Manutenção de Impressoras</CardTitle>
                   </CardHeader>
-                  <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">Reparo e manutenção de impressoras.</CardContent>
+                  <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
+                    Reparo e manutenção de impressoras.
+                  </CardContent>
                 </Card>
 
-                <Card>
+                <Card className="group">
                   <CardHeader>
-                    <Settings size={32}  className="mb-4"/>
+                    <Settings size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Configuração</CardTitle>
                   </CardHeader>
                   <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
@@ -92,21 +92,23 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card>
+                <Card className="group">
                   <CardHeader>
-                    <RefreshCcw size={32}  className="mb-4"/>
+                    <RefreshCcw size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Substituição de Peças</CardTitle>
                   </CardHeader>
-                  <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">Troca de cartuchos, toners e peças.</CardContent>
+                  <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
+                    Troca de cartuchos, toners e peças.
+                  </CardContent>
                 </Card>
               </div>
             </TabsContent>
 
             <TabsContent value="redes">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 w-[1300px]">
-                <Card>
+                <Card className="group">
                   <CardHeader>
-                    <Wifi size={32}  className="mb-4"/>
+                    <Wifi size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Configuração de Redes</CardTitle>
                   </CardHeader>
                   <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
@@ -114,9 +116,9 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card>
+                <Card className="group">
                   <CardHeader>
-                    <Shield size={32}  className="mb-4"/>
+                    <Shield size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Segurança de Rede</CardTitle>
                   </CardHeader>
                   <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
@@ -124,9 +126,9 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card>
+                <Card className="group">
                   <CardHeader>
-                    <ServerCog size={32}  className="mb-4"/>
+                    <ServerCog size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Servidores</CardTitle>
                   </CardHeader>
                   <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
@@ -138,9 +140,9 @@ export default function ServicesTabs() {
 
             <TabsContent value="video-games">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 w-[1300px]">
-                <Card>
+                <Card className="group">
                   <CardHeader>
-                    <Gamepad size={32}  className="mb-4"/>
+                    <Gamepad size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Reparo de Consoles</CardTitle>
                   </CardHeader>
                   <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
@@ -148,41 +150,23 @@ export default function ServicesTabs() {
                   </CardContent>
                 </Card>
 
-                <Card>
+                <Card className="group">
                   <CardHeader>
-                    <Download size={32}  className="mb-4"/>
+                    <Download size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Instalação de Jogos</CardTitle>
                   </CardHeader>
-                  <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">Instalação e otimização de jogos.</CardContent>
-                </Card>
-
-                <Card>
-                  <CardHeader>
-                    <WrenchIcon size={32}  className="mb-4"/>
-                    <CardTitle className="font-bold text-lg">Limpeza e Manutenção</CardTitle>
-                  </CardHeader>
                   <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
-                  Serviço preventivo para consoles
+                    Instalação e otimização de jogos.
                   </CardContent>
                 </Card>
 
-                <Card>
+                <Card className="group">
                   <CardHeader>
-                    <WrenchIcon size={32}  className="mb-4"/>
+                    <WrenchIcon size={32} className="mb-4 transition-transform duration-300 group-hover:scale-125" />
                     <CardTitle className="font-bold text-lg">Limpeza e Manutenção</CardTitle>
                   </CardHeader>
                   <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
-                  Serviço preventivo para consoles
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardHeader>
-                    <WrenchIcon size={32}  className="mb-4"/>
-                    <CardTitle className="font-bold text-lg">Limpeza e Manutenção</CardTitle>
-                  </CardHeader>
-                  <CardContent className="text-zinc-500 dark:text-zinc-400 transition-colors duration-300">
-                  Serviço preventivo para consoles
+                    Serviço preventivo para consoles
                   </CardContent>
                 </Card>
               </div>
@@ -191,5 +175,6 @@ export default function ServicesTabs() {
         </section>
       </Tabs>
     </div>
-  );
+  )
 }
+
