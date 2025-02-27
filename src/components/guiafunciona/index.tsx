@@ -1,7 +1,7 @@
 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
-export default function ComoFunciona() {
+export default function Guiafunciona() {
   return (
     <section className="w-full py-12 md:py-16 flex justify-center">
       <div className="container px-4 md:px-6">
