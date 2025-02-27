@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero.tsx";
 import Navegation from "@/components/Navegation";
 import ServicesTabs from "@/components/Servicespage";
-import Guiafunciona from "@/components/Guiafunciona";
+import Guiafunciona from "@/components/Guiafunciona/index";
 
 export default function Home() {
   return (
