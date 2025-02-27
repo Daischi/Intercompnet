@@ -14,8 +14,11 @@ export default function Home() {
       <main className="h-screen bg-gradient-to-b from-primary/10 to-background">
 
         <Hero/>
-        <ServicesTabs/>
-        <Guiafunciona/>
+        <section className="h-[60%]"><ServicesTabs/></section>
+        
+
+      <section className="h-full"><Guiafunciona/></section>  
+        
         
 
         
