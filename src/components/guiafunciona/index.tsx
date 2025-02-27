@@ -24,7 +24,7 @@ export default function Guiafunciona() {
             </h2>
           </div>
         </div>
-        <div className="flex justify-center gap-11 scale-90">
+        <div className="grid grid-cols-2 justify-center gap-11 scale-90">
           <div className="border rounded-xl p-5">
             {/* Etapa 01 - Entrada */}
 
@@ -130,14 +130,7 @@ export default function Guiafunciona() {
               </AccordionItem>
             </Accordion>
 
-            <Accordion type="single" collapsible>
-              <AccordionItem value="item-1">
-                <AccordionTrigger>Is it accessible?</AccordionTrigger>
-                <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
+        
           </div>
         </div>
       </div>
