@@ -24,50 +24,71 @@ export default function Guiafunciona() {
             </h2>
           </div>
         </div>
-        <div className="flex justify-center gap-11">
-          <div className="border rounded-xl">
-            <div className="p-5">
-              <div className="p-5">
-                <div className="flex items-start gap-4">
-                  {/* Número dentro do círculo */}
-                  <span className="font-semibold py-1 px-3 text-sm flex items-center justify-center w-8 h-8 border rounded-xl ">
-                    01
-                  </span>
+        <div className="flex justify-center gap-11 scale-90">
+          <div className="border rounded-xl p-5">
+            {/* Etapa 01 - Entrada */}
 
-                  {/* Título e texto alinhados verticalmente */}
-                  <div>
-                    <h1 className="text-xl font-semibold">Entrada</h1>
-                    <p className="text-gray-500">
-                      Traga seu equipamento até nossa assistência e aguarde para
-                      orçamento e avaliação técnica.
-                    </p>
-                  </div>
+            <div className="p-5">
+              <div className="flex items-start gap-4">
+                <span className="font-semibold py-1 px-3 text-sm flex items-center justify-center w-8 h-8 border rounded-full bg-gray-100">
+                  01
+                </span>
+                <div>
+                  <h1 className="text-xl font-semibold">Entrada</h1>
+                  <p className="text-gray-500">
+                    Traga seu equipamento até nossa assistência e aguarde para
+                    orçamento e avaliação técnica.
+                  </p>
                 </div>
               </div>
+            </div>
 
-              <div className="flex gap-4">
-                02 <h1>Cadastro</h1>
+            {/* Etapa 02 - Cadastro */}
+            <div className="p-5">
+              <div className="flex items-start gap-4">
+                <span className="font-semibold py-1 px-3 text-sm flex items-center justify-center w-8 h-8 border rounded-full bg-gray-100">
+                  02
+                </span>
+                <div>
+                  <h1 className="text-xl font-semibold">Cadastro</h1>
+                  <p className="text-gray-500">
+                    Realizamos um cadastro completo com seus dados e informações
+                    do equipamento.
+                  </p>
+                </div>
               </div>
-              <p>
-                Realizamos um cadastro completo com seus dados e informações do
-                equipamento.
-              </p>
+            </div>
 
-              <div className="flex gap-4">
-                03 <h1>Avaliação</h1>
+            {/* Etapa 03 - Avaliação */}
+            <div className="p-5">
+              <div className="flex items-start gap-4">
+                <span className="font-semibold py-1 px-3 text-sm flex items-center justify-center w-8 h-8 border rounded-full bg-gray-100">
+                  03
+                </span>
+                <div>
+                  <h1 className="text-xl font-semibold">Avaliação</h1>
+                  <p className="text-gray-500">
+                    Nossa equipe técnica fará uma avaliação detalhada do seu
+                    equipamento.
+                  </p>
+                </div>
               </div>
-              <p>
-                Nossa equipe técnica fará uma avaliação detalhada do seu
-                equipamento.
-              </p>
+            </div>
 
-              <div className="flex gap-4">
-                04 <h1>Orçamento</h1>
+            {/* Etapa 04 - Orçamento */}
+            <div className="p-5">
+              <div className="flex items-start gap-4">
+                <span className="font-semibold py-1 px-3 text-sm flex items-center justify-center w-8 h-8 border rounded-full bg-gray-100">
+                  04
+                </span>
+                <div>
+                  <h1 className="text-xl font-semibold">Orçamento</h1>
+                  <p className="text-gray-500">
+                    Apresentamos um orçamento detalhado com todos os serviços
+                    necessários.
+                  </p>
+                </div>
               </div>
-              <p>
-                Apresentamos um orçamento detalhado com todos os serviços
-                necessários.
-              </p>
             </div>
           </div>
 
