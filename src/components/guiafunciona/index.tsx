@@ -88,7 +88,7 @@ export default function Guiafunciona() {
 
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="prazo-entrega">
-                <AccordionTrigger>Tipos de Orçamento</AccordionTrigger>
+                <AccordionTrigger className="text-base font-semibold">Tipos de Orçamento</AccordionTrigger>
                 <AccordionContent className="">
                   <li className="mb-3">
                   Normal (Sem urgência): Gratuito
@@ -100,26 +100,30 @@ export default function Guiafunciona() {
               </AccordionItem>
 
               <AccordionItem value="garantia">
-                <AccordionTrigger>Oferecem garantia nos serviços?</AccordionTrigger>
+                <AccordionTrigger className="text-base">Formas de Pagamento</AccordionTrigger>
                 <AccordionContent>
-                  Sim, todos os nossos serviços possuem garantia. O período de garantia varia conforme o tipo de reparo
-                  realizado e será informado no momento da entrega.
+                  <li className="mb-2">Dinheiro</li>
+                  <li className="mb-2">Cartão de crédito (até 12x)
+                  </li>
+                  <li className="mb-2">Cartão de débito
+                  </li>
+                  <li className="mb-2">PIX</li>
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="pagamento">
-                <AccordionTrigger>Quais formas de pagamento?</AccordionTrigger>
+                <AccordionTrigger className="text-base">Garantia</AccordionTrigger>
                 <AccordionContent>
-                  Aceitamos pagamentos em dinheiro, cartões de crédito e débito, PIX e transferência bancária.
-                  Parcelamentos estão disponíveis em compras com cartão de crédito.
+                Todos os serviços possuem garantia de 90 dias, conforme o código de defesa do consumidor.
+
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="orcamento-recusado">
-                <AccordionTrigger>E se eu não aprovar o orçamento?</AccordionTrigger>
+                <AccordionTrigger className="text-base">Prazo de Entrega</AccordionTrigger>
                 <AccordionContent>
-                  Caso o orçamento não seja aprovado, será cobrada apenas a taxa de avaliação técnica. Seu equipamento
-                  será devolvido nas mesmas condições em que foi recebido.
+                O prazo médio é de 24 a 48 horas, podendo variar conforme a complexidade do serviço.
+
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
