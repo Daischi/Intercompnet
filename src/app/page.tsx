@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero.tsx";
 import Navegation from "@/components/Navegation";
 import ServicesTabs from "@/components/Servicespage";
-import Guiafunciona from "@/components/Guiafunciona";
+import Funcionamento from "@/components/Funcionamento";
 import Sobrenos from "@/components/Sobrenos";
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
       </main>
 
       <section className="h-full pt-24">
-          <Guiafunciona />
+          <Funcionamento />
         </section>
 
 
