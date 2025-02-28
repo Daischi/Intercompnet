@@ -2,27 +2,32 @@ import Hero from "@/components/Hero.tsx";
 import Navegation from "@/components/Navegation";
 import ServicesTabs from "@/components/Servicespage";
 import Guiafunciona from "@/components/Guiafunciona";
+import Sobrenos from "@/components/Sobrenos";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen bg-gradient-to-b from-primary/10 to-background">
       <header>
-      
-        <Navegation/>
-        
+        <Navegation />
       </header>
-      <main className="h-screen bg-gradient-to-b from-primary/10 to-background">
+      <main>
+        <section><Hero /></section>  
 
-        <Hero/>
-        <section className="h-[60%]"><ServicesTabs/></section>
-        
 
-      <section className="h-full"><Guiafunciona/></section>  
-        
-        
+        <section className="h-full"><Sobrenos/></section>
 
-        
+        <section className="h-full pt-24">
+          <ServicesTabs />
+        </section>
       </main>
+
+      <section className="h-full pt-24">
+          <Guiafunciona />
+        </section>
+
+
+
     </div>
   );
 }
+
