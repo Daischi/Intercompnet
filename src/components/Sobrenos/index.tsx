@@ -1,16 +1,12 @@
-import { CircleCheck, Award, Users, Target } from "lucide-react"
+import { CircleCheck, Award, Users, Target} from "lucide-react"
 
 export default function Sobrenos() {
   return (
-    <div className="container mx-auto px-4 py-16 max-w-5xl">
+    <div className="container mx-auto px-4 py-16 max-w-5xl scale-100">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">Sobre Nós</h1>
-        <div className="w-24 h-1"></div>
-        <p className="text-lg text-zinc-500 dark:text-zinc-400 max-w-3xl mx-auto">
-          Somos uma Assistência Técnica Especializada autorizada que trabalha com equipamentos dentro e fora da
-          garantia. Com mais de 30 anos de experiência no mercado, nossa equipe altamente qualificada está preparada
-          para oferecer as melhores soluções.
-        </p>
+        <h1 className="text-3xl font-bold mb-2">Sobre Nós</h1>
+        <div className="w-24 h-1 bg-green-300 mx-auto"></div>
+        
       </div>
 
       <div className="grid md:grid-cols-2 gap-12 mt-16">
@@ -42,39 +38,70 @@ export default function Sobrenos() {
       </div>
 
       <div className="mt-16 bg-white dark:bg-zinc-800 p-8 rounded-lg shadow-md">
-        <div className="flex items-center mb-6">
-          <div className="p-3 bg-green-100 dark:bg-green-900 rounded-full mr-4">
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center justify-center p-4 bg-green-100 dark:bg-green-900 rounded-full mb-4">
             <Users className="text-green-500 h-6 w-6" />
           </div>
-          <h2 className="text-2xl font-bold flex">Nossos Valores</h2>
+          <h2 className="text-2xl font-bold">Nossos Valores</h2>
+          <div className="w-16 h-1 bg-green-300 mx-auto mt-3"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-4">
-          <ul className="space-y-4">
-            <li className="flex items-center gap-3">
-              <CircleCheck className="text-green-400 h-5 w-5 flex-shrink-0" />
-              <span className="text-zinc-700 dark:text-zinc-300">Transparência em todos os processos</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <CircleCheck className="text-green-400 h-5 w-5 flex-shrink-0" />
-              <span className="text-zinc-700 dark:text-zinc-300">Compromisso com a qualidade</span>
-            </li>
-          </ul>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
+          <div className="bg-green-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
+            <div className="flex items-center gap-3 mb-2">
+              <div className="p-2 bg-green-100 dark:bg-green-900/50 rounded-full">
+                <CircleCheck className="text-green-500 h-5 w-5" />
+              </div>
+              <h3 className="font-semibold text-lg">Transparência</h3>
+            </div>
+            <p className="text-zinc-600 dark:text-zinc-300 pl-10">
+              Em todos os processos e comunicações com nossos clientes
+            </p>
+          </div>
 
-          <ul className="space-y-4">
-            <li className="flex items-center gap-3">
-              <CircleCheck className="text-green-400 h-5 w-5 flex-shrink-0" />
-              <span className="text-zinc-700 dark:text-zinc-300">Respeito ao cliente</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <CircleCheck className="text-green-400 h-5 w-5 flex-shrink-0" />
-              <span className="text-zinc-700 dark:text-zinc-300">Ética profissional</span>
-            </li>
-          </ul>
+          <div className="bg-green-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
+            <div className="flex items-center gap-3 mb-2">
+              <div className="p-2 bg-green-100 dark:bg-green-900/50 rounded-full">
+                <CircleCheck className="text-green-500 h-5 w-5" />
+              </div>
+              <h3 className="font-semibold text-lg">Qualidade</h3>
+            </div>
+            <p className="text-zinc-600 dark:text-zinc-300 pl-10">
+              Compromisso com a excelência em todos os serviços prestados
+            </p>
+          </div>
+
+          <div className="bg-green-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
+            <div className="flex items-center gap-3 mb-2">
+              <div className="p-2 bg-green-100 dark:bg-green-900/50 rounded-full">
+                <CircleCheck className="text-green-500 h-5 w-5" />
+              </div>
+              <h3 className="font-semibold text-lg">Respeito</h3>
+            </div>
+            <p className="text-zinc-600 dark:text-zinc-300 pl-10">
+              Tratamento respeitoso e atencioso a todos os nossos clientes
+            </p>
+          </div>
+
+          <div className="bg-green-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
+            <div className="flex items-center gap-3 mb-2">
+              <div className="p-2 bg-green-100 dark:bg-green-900/50 rounded-full">
+                <CircleCheck className="text-green-500 h-5 w-5" />
+              </div>
+              <h3 className="font-semibold text-lg">Ética</h3>
+            </div>
+            <p className="text-zinc-600 dark:text-zinc-300 pl-10">
+              Conduta profissional ética em todas as nossas ações e decisões
+            </p>
+          </div>
         </div>
       </div>
 
-      
+      <div className="mt-16 text-center">
+       
+        
+        
+      </div>
     </div>
   )
 }
