@@ -36,13 +36,13 @@ export default function Sobrenos() {
       nossos clientes.
     </p>
 
-    <h3 className="mt-5 text-xl font-bold">Nossos Valores</h3>
+    <h3 className="mt-5 text-xl font-bold mb-2">Nossos Valores</h3>
     <ul className="list-disc ml-6 text-zinc-500 dark:text-zinc-400">
     
-    <span><CircleCheck/>Transparência em todos os processos</span>
-    <CircleCheck/>Compromisso com a qualidade
-    <CircleCheck/>Respeito ao cliente
-    <CircleCheck/>Ética profissional
+    <span className="flex gap-2"><CircleCheck className="text-green-300"/>Transparência em todos os processos</span>
+    <span className="flex gap-2"><CircleCheck className="text-green-300"/>Compromisso com a qualidade</span>
+    <span className="flex gap-2"><CircleCheck className="text-green-300"/>Respeito ao cliente</span>
+    <span className="flex gap-2"><CircleCheck className="text-green-300"/>Ética profissional</span>
     </ul>
   </div>
 </section>
