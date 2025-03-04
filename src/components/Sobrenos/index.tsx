@@ -5,7 +5,7 @@ export default function Sobrenos() {
     <div className="container mx-auto px-4 py-16 max-w-5xl">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">Sobre Nós</h1>
-        <div className="w-24 h-1 bg-green-300 mx-auto mb-8"></div>
+        <div className="w-24 h-1"></div>
         <p className="text-lg text-zinc-500 dark:text-zinc-400 max-w-3xl mx-auto">
           Somos uma Assistência Técnica Especializada autorizada que trabalha com equipamentos dentro e fora da
           garantia. Com mais de 30 anos de experiência no mercado, nossa equipe altamente qualificada está preparada
@@ -46,7 +46,7 @@ export default function Sobrenos() {
           <div className="p-3 bg-green-100 dark:bg-green-900 rounded-full mr-4">
             <Users className="text-green-500 h-6 w-6" />
           </div>
-          <h2 className="text-2xl font-bold">Nossos Valores</h2>
+          <h2 className="text-2xl font-bold flex">Nossos Valores</h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-4">
