@@ -5,6 +5,7 @@ export default function Sobrenos() {
     <div className="container mx-auto px-4 py-16 max-w-5xl scale-100">
       <div className="text-center mb-12">
         <h1 className="text-3xl font-bold mb-2">Sobre Nós</h1>
+        <div className="w-24 h-1 bg-gray-300 mx-auto"></div>
         
       </div>
 
@@ -42,11 +43,11 @@ export default function Sobrenos() {
             <Users className="text-green-500 h-6 w-6" />
           </div>
           <h2 className="text-2xl font-bold">Nossos Valores</h2>
-          <div className="w-16 h-1 bg-green-300 mx-auto mt-3"></div>
+          <div className="w-16 h-1 bg-gray-300 mx-auto mt-3"></div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
-          <div className="bg-green-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
+          <div className="bg-gray-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
             <div className="flex items-center gap-3 mb-2">
               <div className="p-2 bg-green-100 dark:bg-green-900/50 rounded-full">
                 <CircleCheck className="text-green-500 h-5 w-5" />
@@ -70,7 +71,7 @@ export default function Sobrenos() {
             </p>
           </div>
 
-          <div className="bg-green-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
+          <div className="bg-gray-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
             <div className="flex items-center gap-3 mb-2">
               <div className="p-2 bg-green-100 dark:bg-green-900/50 rounded-full">
                 <CircleCheck className="text-green-500 h-5 w-5" />
@@ -82,7 +83,7 @@ export default function Sobrenos() {
             </p>
           </div>
 
-          <div className="bg-green-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
+          <div className="bg-gray-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
             <div className="flex items-center gap-3 mb-2">
               <div className="p-2 bg-green-100 dark:bg-green-900/50 rounded-full">
                 <CircleCheck className="text-green-500 h-5 w-5" />
