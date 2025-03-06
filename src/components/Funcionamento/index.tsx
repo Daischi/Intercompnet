@@ -13,6 +13,7 @@ export default function Guiafunciona() {
             Processo Simplificado
           </span>
           <h1 className="text-3xl font-bold mt-4 mb-2">Como Funciona?</h1>
+          <div className="w-24 h-1 bg-gray-300 mx-auto mb-4"></div>
           <p className="text-muted-foreground max-w-2xl">Conheça nosso processo de atendimento passo a passo</p>
         </div>
 

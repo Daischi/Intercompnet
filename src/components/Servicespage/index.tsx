@@ -18,7 +18,8 @@ export default function ServicesTabs() {
   return (
     <div>
       <div>
-        <h1 className="flex justify-center items-center mb-4 text-3xl font-bold">Nossos Serviços</h1>
+        <h1 className="flex justify-center items-center mb-2 text-3xl font-bold">Nossos Serviços</h1>
+        <div className="w-24 h-1 bg-gray-300 mx-auto mb-4"></div>
         <p className="flex justify-center items-center mb-10">
           Oferecemos uma ampla gama de serviços técnicos especializados
         </p>
