@@ -1,4 +1,4 @@
-import { CircleCheck, Award, Users, Target} from "lucide-react"
+import { CircleCheck, Award, Users, Target } from "lucide-react"
 
 export default function Sobrenos() {
   return (
@@ -6,14 +6,13 @@ export default function Sobrenos() {
       <div className="text-center mb-12">
         <h1 className="text-3xl font-bold mb-2">Sobre Nós</h1>
         <div className="w-24 h-1 bg-gray-300 mx-auto"></div>
-        
       </div>
 
       <div className="grid md:grid-cols-2 gap-12 mt-16">
         <div className="bg-white dark:bg-zinc-800 p-8 rounded-lg shadow-md">
           <div className="flex items-center mb-6">
-            <div className="p-3 bg-green-100 dark:bg-green-900 rounded-full mr-4">
-              <Target className="text-green-500 h-6 w-6" />
+            <div className="p-3 bg-gray-100 dark:bg-gray-700 rounded-full mr-4">
+              <Target className="text-gray-600 dark:text-gray-300 h-6 w-6" />
             </div>
             <h2 className="text-2xl font-bold">Nossa Missão</h2>
           </div>
@@ -25,8 +24,8 @@ export default function Sobrenos() {
 
         <div className="bg-white dark:bg-zinc-800 p-8 rounded-lg shadow-md">
           <div className="flex items-center mb-6">
-            <div className="p-3 bg-green-100 dark:bg-green-900 rounded-full mr-4">
-              <Award className="text-green-500 h-6 w-6" />
+            <div className="p-3 bg-gray-100 dark:bg-gray-700 rounded-full mr-4">
+              <Award className="text-gray-600 dark:text-gray-300 h-6 w-6" />
             </div>
             <h2 className="text-2xl font-bold">Nossa Experiência</h2>
           </div>
@@ -39,8 +38,8 @@ export default function Sobrenos() {
 
       <div className="mt-16 bg-white dark:bg-zinc-800 p-8 rounded-lg shadow-md">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center p-4 bg-green-100 dark:bg-green-900 rounded-full mb-4">
-            <Users className="text-green-500 h-6 w-6" />
+          <div className="inline-flex items-center justify-center p-4 bg-gray-100 dark:bg-gray-700 rounded-full mb-4">
+            <Users className="text-gray-600 dark:text-gray-300 h-6 w-6" />
           </div>
           <h2 className="text-2xl font-bold">Nossos Valores</h2>
           <div className="w-16 h-1 bg-gray-300 mx-auto mt-3"></div>
@@ -49,8 +48,8 @@ export default function Sobrenos() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
           <div className="bg-gray-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
             <div className="flex items-center gap-3 mb-2">
-              <div className="p-2 bg-green-100 dark:bg-green-900/50 rounded-full">
-                <CircleCheck className="text-green-500 h-5 w-5" />
+              <div className="p-2 bg-gray-100 dark:bg-gray-800 rounded-full">
+                <CircleCheck className="text-gray-600 dark:text-gray-300 h-5 w-5" />
               </div>
               <h3 className="font-semibold text-lg">Transparência</h3>
             </div>
@@ -61,8 +60,8 @@ export default function Sobrenos() {
 
           <div className="bg-gray-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
             <div className="flex items-center gap-3 mb-2">
-              <div className="p-2 bg-green-100 dark:bg-green-900/50 rounded-full">
-                <CircleCheck className="text-green-500 h-5 w-5" />
+              <div className="p-2 bg-gray-100 dark:bg-gray-800 rounded-full">
+                <CircleCheck className="text-gray-600 dark:text-gray-300 h-5 w-5" />
               </div>
               <h3 className="font-semibold text-lg">Qualidade</h3>
             </div>
@@ -73,8 +72,8 @@ export default function Sobrenos() {
 
           <div className="bg-gray-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
             <div className="flex items-center gap-3 mb-2">
-              <div className="p-2 bg-green-100 dark:bg-green-900/50 rounded-full">
-                <CircleCheck className="text-green-500 h-5 w-5" />
+              <div className="p-2 bg-gray-100 dark:bg-gray-800 rounded-full">
+                <CircleCheck className="text-gray-600 dark:text-gray-300 h-5 w-5" />
               </div>
               <h3 className="font-semibold text-lg">Respeito</h3>
             </div>
@@ -85,8 +84,8 @@ export default function Sobrenos() {
 
           <div className="bg-gray-50 dark:bg-zinc-700/30 p-5 rounded-lg transition-transform hover:scale-105">
             <div className="flex items-center gap-3 mb-2">
-              <div className="p-2 bg-green-100 dark:bg-green-900/50 rounded-full">
-                <CircleCheck className="text-green-500 h-5 w-5" />
+              <div className="p-2 bg-gray-100 dark:bg-gray-800 rounded-full">
+                <CircleCheck className="text-gray-600 dark:text-gray-300 h-5 w-5" />
               </div>
               <h3 className="font-semibold text-lg">Ética</h3>
             </div>
@@ -97,11 +96,7 @@ export default function Sobrenos() {
         </div>
       </div>
 
-      <div className="mt-16 text-center">
-       
-        
-        
-      </div>
+      <div className="mt-16 text-center">{/* Empty section preserved from original */}</div>
     </div>
   )
 }
