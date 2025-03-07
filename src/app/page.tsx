@@ -14,38 +14,39 @@ export default function Home() {
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 space-y-24">
-        {/* Hero Section */}
-        <section id="hero">
+      <main className="container mx-auto px-4">
+        {/* Hero Section - Ocupa a tela inteira */}
+        <section id="hero" className="min-h-screen flex items-center justify-center">
           <Hero />
         </section>
 
-        {/* About Us Section */}
-        <section id="sobre-nos">
+        {/* About Us Section - Espaçamento médio */}
+        <section id="sobre-nos" className="py-20">
           <Sobrenos />
         </section>
 
-        {/* Services Section */}
-        <section id="servicos">
+        {/* Services Section - Ocupa boa parte da tela */}
+        <section id="servicos" className="min-h-[80vh] flex items-center justify-center">
           <ServicesTabs />
         </section>
 
-        {/* How It Works Section */}
-        <section id="funcionamento">
+        {/* How It Works Section - Espaçamento controlado */}
+        <section id="funcionamento" className="py-20">
           <Funcionamento />
         </section>
 
-        {/* FAQ Section */}
-        <section id="duvidas">
+        {/* FAQ Section - Mantém um tamanho proporcional */}
+        <section id="duvidas" className="min-h-[70vh] flex items-center justify-center">
           <Duvidas />
         </section>
       </main>
 
       {/* Footer */}
       <footer className="mt-24">
-        
+        {/* Conteúdo do footer */}
       </footer>
     </div>
   );
 }
+
 
