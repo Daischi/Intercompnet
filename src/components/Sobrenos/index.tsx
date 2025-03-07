@@ -2,7 +2,7 @@ import { CircleCheck, Award, Users, Target } from "lucide-react"
 
 export default function Sobrenos() {
   return (
-    <div className="container mx-auto px-4 py-16 max-w-5xl scale-100">
+    <div className="container mx-auto px-4 py-16 max-w-5xl scale-95">
       <div className="text-center mb-12">
         <h1 className="text-3xl font-bold mb-2">Sobre Nós</h1>
         <div className="w-24 h-1 bg-gray-300 mx-auto"></div>
