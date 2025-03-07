@@ -1,9 +1,10 @@
-import Hero from "@/components/Hero.tsx";
-import Navegation from "@/components/Navegation/index";
-import ServicesTabs from "@/components/Servicespage";
-import Funcionamento from "@/components/Funcionamento";
-import Sobrenos from "@/components/Sobrenos";
-import Duvidas from "@/components/Duvidas";
+import Hero from "@/components/Hero.tsx"
+
+import ServicesTabs from "@/components/Servicespage"
+import Funcionamento from "@/components/Funcionamento"
+import Sobrenos from "@/components/Sobrenos"
+import Duvidas from "@/components/Duvidas"
+import Navegation from "@/components/Navegation"
 
 export default function Home() {
   return (
@@ -14,9 +15,9 @@ export default function Home() {
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4">
+      <main>
         {/* Hero Section - Ocupa a tela inteira */}
-        <section id="hero" className="min-h-screen flex items-center justify-center">
+        <section id="hero" >
           <Hero />
         </section>
 
@@ -48,5 +49,4 @@ export default function Home() {
     </div>
   );
 }
-
 
