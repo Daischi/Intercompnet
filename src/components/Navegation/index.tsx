@@ -45,9 +45,9 @@ export default function Navigation() {
       </div>
 
       <div className="flex gap-5 justify-center font-normal text-sm items-center">
-        <Link
+        <Link id="#sobre-nos"
           className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
-          href=""
+          href="#sobre-nos"
         >
           Sobre Nós
         </Link>
