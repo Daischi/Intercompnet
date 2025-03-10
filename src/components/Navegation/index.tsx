@@ -54,7 +54,7 @@ export default function Navigation() {
         
         <Link
           className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
-          href=""
+          href="#servicos"
         >
           Serviços
         </Link>
