@@ -41,7 +41,7 @@ export default function Navigation() {
         ${scrolled ? "backdrop-blur-md bg-opacity-80 dark:bg-opacity-80" : ""}`}
     >
       <div className="text-xl font-bold flex justify-end w-96 items-center">
-        <Link href="">InterCompnet</Link>
+        <Link href="#hero">InterCompnet</Link>
       </div>
 
       <div className="flex gap-5 justify-center font-normal text-sm items-center">
@@ -49,7 +49,7 @@ export default function Navigation() {
 
       <Link
           className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
-          href=""
+          href="#hero"
         >
           Inicio
         </Link>
