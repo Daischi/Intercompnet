@@ -45,6 +45,15 @@ export default function Navigation() {
       </div>
 
       <div className="flex gap-5 justify-center font-normal text-sm items-center">
+
+
+      <Link
+          className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
+          href=""
+        >
+          Inicio
+        </Link>
+
         <Link id="#sobre-nos"
           className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
           href="#sobre-nos"
@@ -61,22 +70,11 @@ export default function Navigation() {
 
         <Link
           className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
-          href="#"
+          href="#funcionamento"
         >
           Como Funciona
         </Link>
-        <Link
-          className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
-          href=""
-        >
-          Marcas
-        </Link>
-        <Link
-          className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
-          href=""
-        >
-          Galeria
-        </Link>
+        
         <Link
           className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
           href=""
