@@ -43,7 +43,7 @@ export default function Hero() {
               >
                 <a
                   className="flex items-center justify-center gap-4 py-14 px-6"
-                  href=""
+                  href="#servicos"
                 >
                   Nossos Serviços
                 </a>{" "}
