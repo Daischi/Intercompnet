@@ -11,8 +11,8 @@ export default function Contatos() {
             Estamos prontos para atender suas necessidades
           </p>
         </div>
-        <section className="flex justify-center items-center mt-10 gap-14">
-          <section className="">
+        <section className="flex justify-center items-center mt-5">
+          <section className="border grid gap-5 py-9 rounded-lg px-5 scale-95">
             <section>
               <div className="flex items-center gap-4">
                 <div className="flex gap-3">
@@ -21,7 +21,7 @@ export default function Contatos() {
                 <div className="grid grid-rows-2">
                   <h3 className="font-bold">Endereço</h3>
 
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground text-sm">
                     Rua Otávio Tarquínio de Souza, 945 - Campo Belo - SP
                   </p>
                 </div>
@@ -36,7 +36,7 @@ export default function Contatos() {
                 <div className="grid grid-rows-2">
                   <h3 className="font-bold">Telefones</h3>
 
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground text-sm">
                     (11) 5535-7587 / (11) 99445-7214
                   </p>
                 </div>
@@ -51,7 +51,7 @@ export default function Contatos() {
                 <div className="grid grid-rows-2">
                   <h3 className="font-bold">Email</h3>
 
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground text-sm">
                     sac@intercompnet.com.br
                   </p>
                 </div>
@@ -66,7 +66,7 @@ export default function Contatos() {
                 <div className="grid grid-rows-2">
                   <h3 className="font-bold">Horário</h3>
 
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground text-sm">
                     Segunda à Sexta: 9h às 18h
                   </p>
                 </div>
@@ -74,11 +74,11 @@ export default function Contatos() {
             </section>
           </section>
 
-          <section>
+          <section className="scale-95 border p-6 rounded-lg">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14622.562629753636!2d-46.66964300000001!3d-23.617217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a0ab1500fa9%3A0x173ecfcb7cf74296!2sR.%20Ot%C3%A1vio%20Tarqu%C3%ADnio%20de%20Sousa%2C%20945%20-%20Campo%20Belo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004613-002!5e0!3m2!1sen!2sbr!4v1741728493764!5m2!1sen!2sbr"
-              width="600"
-              height="450"
+              width="400"
+              height="283"
               loading="lazy"
             ></iframe>
           </section>
