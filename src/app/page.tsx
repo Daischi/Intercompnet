@@ -9,7 +9,9 @@ import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-primary/10 to-background">
+   
+    <div>
+   <div className="min-h-screen bg-gradient-to-b from-primary/10 to-background">
       {/* Header */}
       <header>
         <Navegation />
@@ -43,8 +45,10 @@ export default function Home() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="mt-24">
+      
+    </div>
+{/* Footer */}
+<footer className="mt-24">
       <Footer/>
       </footer>
     </div>
