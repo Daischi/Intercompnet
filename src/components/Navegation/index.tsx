@@ -1,33 +1,33 @@
-"use client"
-import { useTheme } from "next-themes"
-import { useEffect, useState } from "react"
-import Link from "next/link"
-import { Moon, Sun, Mail, Phone } from "lucide-react"
+"use client";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { Moon, Sun, Mail, Phone } from "lucide-react";
 
 export default function Navigation() {
-  const { theme, setTheme } = useTheme()
-  const [mounted, setMounted] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    setMounted(true)
+    setMounted(true);
 
     const handleScroll = () => {
-      const isScrolled = window.scrollY > 10
+      const isScrolled = window.scrollY > 10;
       if (isScrolled !== scrolled) {
-        setScrolled(isScrolled)
+        setScrolled(isScrolled);
       }
-    }
+    };
 
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll)
-    }
-  }, [scrolled])
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrolled]);
 
   if (!mounted) {
-    return null
+    return null;
   }
 
   return (
@@ -45,22 +45,21 @@ export default function Navigation() {
       </div>
 
       <div className="flex gap-5 justify-center font-normal text-sm items-center">
-
-
-      <Link
+        <Link
           className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
           href="#hero"
         >
           Inicio
         </Link>
 
-        <Link id="#sobre-nos"
+        <Link
+          id="#sobre-nos"
           className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
           href="#sobre-nos"
         >
           Sobre Nós
         </Link>
-        
+
         <Link
           className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
           href="#servicos"
@@ -74,10 +73,10 @@ export default function Navigation() {
         >
           Como Funciona
         </Link>
-        
+
         <Link
           className="text-neutral-500 dark:text-zinc-400 hover:text-foreground transition-all duration-300 dark:hover:text-foreground border-b-2 border-transparent hover:border-foreground"
-          href=""
+          href="#contatos"
         >
           Contato
         </Link>
@@ -114,11 +113,13 @@ export default function Navigation() {
          bg-black text-white font-medium hover:bg-opacity-80"
           href="#"
         >
-          <Phone className="transition-transform duration-300 group-hover:animate-wiggle" size={17} />
+          <Phone
+            className="transition-transform duration-300 group-hover:animate-wiggle"
+            size={17}
+          />
           (11) 5535-7587
         </a>
       </div>
     </nav>
-  )
+  );
 }
-
