@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero.tsx"
-
+import Contatos from "@/components/Contatos"
 import ServicesTabs from "@/components/Servicespage"
 import Funcionamento from "@/components/Funcionamento"
 import Sobrenos from "@/components/Sobrenos"
@@ -42,6 +42,13 @@ export default function Home() {
         {/* FAQ Section - Mantém um tamanho proporcional */}
         <section id="duvidas" className="min-h-[70vh] flex items-center justify-center">
           <Duvidas />
+        </section>
+
+
+        <section>
+        <Contatos/>
+
+
         </section>
       </main>
 
