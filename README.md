@@ -3,6 +3,8 @@
 ## 📌 Descrição
 Intercompnet é uma loja especializada no conserto de videogames, computadores e impressoras. O projeto foi desenvolvido utilizando **Next.js**, **Tailwind CSS** e **TypeScript**, além de bibliotecas como **ShadCN**, **Lucide React** e outras para otimizar a experiência do usuário.
 
+A ideia para esse projeto surgiu quando fui fazer uma entrevista de emprego para Help Desk na Intercompnet. Ao pesquisar sobre a empresa, encontrei o site deles ([intercompnet.com.br](https://www.intercompnet.com.br/)) e percebi que ele estava muito desatualizado e com um design antigo. Decidi, então, criar uma reformulação moderna e responsiva para demonstrar minhas habilidades.
+
 ## 🚀 Tecnologias utilizadas
 
 - **Next.js** – Framework para React que permite renderização no servidor e geração de sites estáticos.
@@ -118,9 +120,6 @@ Certifique-se de ter o **Node.js** e o **npm** ou **yarn** instalados na sua má
    ```  
 5. Acesse no navegador: [`http://localhost:3000`](http://localhost:3000)
 
-## 📷 Capturas de tela
-Adicione imagens do projeto aqui para demonstrar a interface.
-
 ## 🛠 Funcionalidades
 
 - [x] Página inicial apresentando os serviços oferecidos  
@@ -128,11 +127,7 @@ Adicione imagens do projeto aqui para demonstrar a interface.
 - [x] Formulário de contato para orçamento  
 - [x] Responsividade para diversos dispositivos  
 
-## 📌 Melhorias futuras
 
-- [ ] Implementação de um sistema de login  
-- [ ] Integração com um banco de dados  
-- [ ] Pagamentos online  
 
 ## 🤝 Contribuição
 
