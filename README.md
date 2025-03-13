@@ -73,3 +73,10 @@ Se quiser contribuir para o projeto, siga estes passos:
    git push origin minha-feature
    ```  
 5. Abra um **Pull Request**
+
+## Contato
+
+Se você tiver alguma dúvida ou sugestão, entre em contato:
+
+- **Autor:** Guilherme Poppi
+- **GitHub:** [Daischi](https://github.com/Daischi)
