@@ -74,7 +74,7 @@ Se quiser contribuir para o projeto, siga estes passos:
    ```  
 5. Abra um **Pull Request**
 
-## Contato
+## 📬 Contato
 
 Se você tiver alguma dúvida ou sugestão, entre em contato:
 
